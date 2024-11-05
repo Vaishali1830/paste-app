@@ -7,20 +7,6 @@ const initialState = {
   : []
 }
 
-// const initialState = {
-//   pastes: (() => {
-//     const storedPastes = localStorage.getItem("pastes");
-//     try {
-//       // If storedPastes is null, or JSON.parse throws an error, we fallback to an empty array
-//       return storedPastes ? JSON.parse(storedPastes) : [];
-//     } catch (error) {
-//       // Log error and return empty array as fallback
-//       console.error("Error parsing pastes from localStorage:", error);
-//       return [];
-//     }
-//   })(),
-// };
-
 export const pasteSlice = createSlice({
   name: 'paste',
   initialState,
