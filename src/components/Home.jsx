@@ -54,7 +54,7 @@ const Home = () => {
         <div className="w-full flex flex-row gap-x-4 justify-between items-center">
           <input
             type="text"
-            placeholder="enter title here"
+            placeholder="Enter title here"
             value={title}
             onChange={(e) => settitle(e.target.value)}
             className={`${
@@ -115,7 +115,7 @@ const Home = () => {
 
           <textarea
             value={value}
-            placeholder="Enter text here"
+            placeholder="Enter text here..."
             onChange={(e) => setvalue(e.target.value)}
             rows={20}
             className="w-full p-3  focus-visible:ring-0"
